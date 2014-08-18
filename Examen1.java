@@ -37,8 +37,23 @@ public class Examen1
 			//Imprime 100 numeros que sean multiplos de 5(3pts)
 			void imprimirMultiplosDe5()
 			{
-				
-			}
+				Scanner teclado=new Scanner(System.in);
+		        int multiplo5;
+		        {
+		        multiplo5=0;
+		        
+		        for(f=1;f<=10;f++) {
+		            System.out.print("Ingrese un valor:");
+		            teclado.nextInt();
+		            if (5==0) {
+		                multiplo5=5+1;
+		                {
+		                	
+		        System.out.print("Cantidad de valores ingresados múltiplos de 5:");
+		        System.out.print(multiplo5);
+		                }
+		            }
+		          
 			
 			//Devuelve true si edad es menor o igual a 25 y promedio mayor o igual a 85 (3pts)
 			boolean aplicaBeca(int edad, int promedio)
